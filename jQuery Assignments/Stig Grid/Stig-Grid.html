@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Stig Grid</title>
+	<meta name="description" content="BLAH BLAH BLAH">
+	<link rel="stylesheet" type="text/css" href="QueryCSS.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> 
+	<!-- This references this page and tells the browser to use all of the code written at this URL and allow me to use it on this page.-->
+	<script type="text/javascript"> 
+
+	$(document).ready(function(){
+
+		$("img").click(function(){
+			$(this).hide();
+			});
+
+		$("button").click(function(){
+			$("img").show();
+			});
+	});
+
+
+	</script>
+</head>
+<body>
+				
+	<div id="wrapper">		
+				<img id="stig1a" src="StigSquare.jpg" alt="img-stig">
+
+				<img id="stig1b" src="StigSquare.jpg" alt="img-stig">
+
+				<img id="stig1c" src="StigSquare.jpg" alt="img-stig">
+
+				<img id="stig1d" src="StigSquare.jpg" alt="img-stig">
+
+			<div id="row2">	
+
+				<img id="stig2a" src="StigSquare.jpg" alt="img-stig">
+
+				<img id="stig2b" src="StigSquare.jpg" alt="img-stig">
+
+				<img id="stig2c" src="StigSquare.jpg" alt="img-stig">
+
+				<img id="stig2d" src="StigSquare.jpg" alt="img-stig">
+
+			</div>
+
+		
+	</div>
+
+		<button id="Restore">Restore</button>
+
+</body>
+</html>

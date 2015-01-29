@@ -1,0 +1,240 @@
+#wrapper{
+	width: 960px;
+	height: 1200px;
+	margin: 0 auto;
+	background-color: black;
+}
+
+#header{
+	height: 500px;
+	width: 956px;
+	background-color: #1A1A1A;
+}
+
+#logo img{
+	height: 100px;
+	width: 200px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 200px;
+	margin-left: 0px;
+	vertical-align: top;
+}
+
+#phone img{
+	height: 100px;
+	width: 200px;
+	background-color: yellow;
+	display: inline;
+	margin: 0px;
+	vertical-align: top;
+	margin-left: 400px;
+	margin-right: 0px;
+}
+
+#banner img{
+	height: 360px;
+	width: 956px;
+}
+
+#nav{
+	height: 40px;
+	width: 956px;
+	background-color: gray;
+	display: block;
+	text-decoration: none;
+	color: #A8A8A7;
+}
+
+ul{
+	padding: 0px;
+	display: inline-block;
+}
+
+li{
+	border-right: 1px gray solid;
+	padding-left: 4px;
+	padding-right: 6px;
+	display: inline;
+	}
+
+#middle{
+	height: 240px;
+	width: 956px;
+	background-color: #1A1A1A;
+	vertical-align: bottom;
+}
+
+#cloud, #clock, #pointer, #revolve img{
+	width: 62px;
+	height: 136px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#offer1, #offer2, #offer3, #offer4{
+	width: 165px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#a, #b, #c, #d{
+	width: 100px;
+	height: 136px;
+	display: inline-block;
+}
+
+h2{
+	width: 150px;
+	height: 40px;
+	font-family: times;
+	font-size: 12pt;
+	margin: 0px;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+}
+
+p{
+	font-family: helvetica;
+	font-size: 10pt;
+	display: inline-block;
+	vertical-align: top;
+	width: 160px;
+	color: white;
+}
+
+#CTA{
+	width: 956px;
+	height: 50px;
+	display: block;
+	background-color: green
+}
+
+#CTAtextwrap{
+	width: 840px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 15px;
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 14pt;
+	color: white;
+}
+
+h6{
+	width: 600px;
+	height: 100px;
+	font-family: helvetica;
+	font-size: 10px;
+	color: white;
+}
+
+button{
+	height: 40px;
+	width: 100px;
+	background-color: orange;
+	margin-right: 0px;
+	margin-left: 0px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+	border: gray;
+	font-size: 14pt;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+#bottom{
+	width: 956px;
+	height: 360px;
+	background-color: #1A1A1A;
+}
+
+#portfolio{
+	display: inline-block;
+	margin-left: 9px;
+	width: 920px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	background-color: gray;
+}
+
+h3{
+	font-family: times;
+	font-size: 13pt;
+	color: white;
+}
+
+#viewall{
+	display: inline;
+	margin-left: 0px;
+	width: 35px;
+	height: 14px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	background-color: #1A1A1A;
+}
+
+#pictures{
+	width: 956px;
+	height: 200px;
+	margin-left: 2px;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+#dancer, #bus, #kiss, #city img{
+	width: 200px;
+	height: 120px;
+	display: inline-block;
+	background-color: orange;
+	margin: 14px;
+	border: 2px gray solid;
+	vertical-align: top;
+}
+
+#ports{
+	width: 956px;
+	height: 200px;
+}
+
+#portbox1, #portbox2, #portbox3, #portbox4{
+		width: 180px;
+		height: 75px;
+		display: inline-block;
+		background-color: #1A1A1A;
+		color: white;
+		margin-right: 7px;
+		margin-left: 7px;
+		font-family: helvetica;
+		vertical-align: top;
+}
+
+	h4{
+		font-family: times;
+		font-size: 12pt;
+		color: white;
+	}
+
+
+#footer{
+	width: 956px;
+	height: 5px;
+	padding-left: 940px;
+}
+
+	h5{
+		font-family: helvetica;
+		font-size: 8pt;
+		vertical-align: bottom;
+		color: gray;
+	}

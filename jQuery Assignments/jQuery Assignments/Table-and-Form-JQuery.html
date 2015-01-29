@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Table and Form</title>
+	<meta name="keywords" content="Form and Table jQuery Testing">
+	<link rel="stylesheet" type="text/css" href="TableForm.css">
+	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+	<script type="text/javascript"> 
+
+		$(document).ready(function(){
+
+			$('form').submit(function(){
+				$('tbody').append(
+					'<tr><td>' + $("#f").val() + '</td>' +
+					'<td>' + $("#l").val() + '</td>' +
+					'<td>' + $("#e").val() + '</td>' +
+					'<td>' + $("#c").val() + '</td></tr>');
+				
+				return false;
+			});
+	});
+
+
+	</script>
+</head>
+<body>
+			<div id="wrapper">	
+				<table id="MyTable" style="width:100%">
+					<thead>
+					  <tr>
+					    <th id="th1">Firstname</th>
+					    <th id="th2">Lastname</th> 
+					    <th id="th3">Email Address</th>
+					    <th id="th4">Contact</th>
+					  </tr>
+				</thead>
+				  	<tbody>
+					</tbody>
+				</table>
+
+				<br>
+				
+				<h2>Add User</h2>
+				<div id="AddUserWrapper">
+					<form id="MyForm" method='post'>
+						First name: <input id='f' type="text" name="first_name">
+						Last name: <input id='l' type="text" name="last_name">
+						Email: <input id='e' type="text" name="email">
+						Contact No.: <input id='c' type="text" name="contact_no">
+						<input id="AddUser" type="submit" value="Add User">
+					</form>
+				</div>
+			</div>
+
+</body>
+</html>

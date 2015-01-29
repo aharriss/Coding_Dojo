@@ -1,0 +1,86 @@
+*{
+	font-family: helvetica
+}
+
+#header{
+	width:1000px;
+	height:200px;
+	background-color: gray
+}
+
+	#PPCLubricants{
+		width:1000px;
+		height:65px;
+		background-color: #FF33CC;
+		margin-top: 15px;
+		padding-top: 5px;
+		padding-bottom: 3px;
+	}
+
+	#Logobanner{
+		width:1000px;
+		height:60px;
+		background-color: #FFFF99;
+		margin-top: 5px;
+	}
+
+	#nav{
+		width:1000px;
+		height:50px;
+		background-color: #00CCFF;
+		margin-top: 1px;
+	}
+
+#blackwrapper{
+	width:1000px;
+	height:700px;
+	background-color: black;
+}
+
+	#splash{
+		width:990px;
+		height:380px;
+		background-color: orange;
+		display: inline-block;
+	}
+
+		#snowpicture{
+			height: 340px;
+			width: 420px;
+			background-color: purple;
+			display: inline-block;
+			margin-left: 10px;
+		}
+
+		#about{
+			height: 340px;
+			width: 535px;
+			background-color: red;
+			display: inline-block;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#bulkdelivery{
+			height: 30px;
+			width: 980px;
+			background-color: #2DC4BF;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+	#products{
+		width:990px;
+		height: 274px;
+		background-color: yellow
+	}
+
+	#automotive, #commercial, #industrial, #diesel{
+		width: 230px;
+		height: 260px;
+		display: inline-block;
+		background-color: blue;
+		margin-left: 10px;
+		margin-right: 1px;
+		margin-top: 5px;
+	}

@@ -1,0 +1,25 @@
+*{
+	margin: 10px auto;
+}
+
+#wrapper{
+	width:400px;
+	height:800px;
+	font-family: helvetica;
+}
+
+#valid{
+	background-color: #50B045;
+	color: black;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 12pt;
+	margin-bottom:5px;
+	margin-top: 250px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 380px;
+	position: relative;
+	left: 0%;

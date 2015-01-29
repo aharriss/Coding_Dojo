@@ -1,0 +1,22 @@
+#wrapper{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+
+
+#row2{
+	display: inline-block;
+	height: 205px;
+	width: 1000px;
+	right margin: 5px;
+	vertical-align: top;
+}
+
+button{
+	height: 35px;
+	width: 60px;
+	background-color: green;
+	color: white;
+}

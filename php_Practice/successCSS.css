@@ -1,0 +1,42 @@
+*{
+	margin: 10px auto;
+}
+
+#wrapper{
+	width: 440px;
+	text-align: center;
+}
+
+h4{
+	background-color: #B6D7A8;
+	font-family: helvetica;
+	border: 1px black solid;
+	height: 40px;
+	width: 428px;
+	padding: 5px;
+	vertical-align: middle;
+}	
+
+#submitted_info{
+	border: 1px black solid;
+}
+
+h2{
+	font-size: 15pt;
+	font-family: helvetica;
+	text-align: left;
+	padding-left: 25px;
+}
+
+p{
+	text-align: left;
+	padding-left: 25px;
+	font-family: helvetica;
+}
+
+input{
+	text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+	width: 60px;
+}

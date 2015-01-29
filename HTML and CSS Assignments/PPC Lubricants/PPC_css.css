@@ -1,0 +1,219 @@
+*{
+	font-family: helvetica;
+}
+
+#wrapper{
+	width:1000px;
+	margin: 0 auto;
+}
+
+#header{
+	width:1000px;
+	height:142px;
+	background-color: white
+}
+
+	#PPCLubricants{
+		width:1000px;
+		height:29px;
+		background-color: white;
+		margin-top: 5px;
+		vertical-align: bottom;
+		text-align: bottom;
+		padding-top: 5px;
+		padding-bottom: 3px;
+	}
+
+	h1 {
+		margin:0px;
+		vertical-align: bottom;
+	}
+
+	#Logobanner{
+		width:1000px;
+		height:60px;
+		background-color: #FFFF99;
+		margin-top: 5px;
+		vertical-align: bottom;
+	}
+
+	#Logobanner img{
+		width:1003px;
+		height:60px;
+	}
+
+	#nav{
+		width:1000px;
+		vertical-align: bottom;
+		height:40px;
+		background-color: #efedf9;
+	}
+
+	ul{
+		width: 960px;
+		height: 25px;
+		text-decoration: none;
+		display: inline-block;
+		margin: 0px;
+		vertical-align: top;
+		background-color: #D9DFE6;
+		font-weight: bold;
+		background: linear-gradient(to bottom,  #eaf1f7 0%,#e6ecf2 42%,#d9dfe0 44%,#efedf9 100%); /* W3C */
+	}
+
+	ul li{
+		text-decoration: none;
+		display: inline-block;
+		font-size: 8pt;
+		padding-top: 3px;
+		padding-right: 20px;
+		border-right: 1px white solid;
+		margin-right: 5px;
+	}
+
+	a{
+		text-decoration: none;
+		color: gray;
+	}
+
+#blackwrapper{
+	width:1000px;
+	height:620px;
+	background-color: black;
+	background: radial-gradient(ellipse at center,  #606060 8%,#000000 41%,#000000 99%); /* W3C */;
+}
+
+	#splash{
+		width:990px;
+		height:316px;
+		display: inline-block;
+	}
+
+		#snowpicture{
+			height: 280px;
+			width: 379px;
+			vertical-align: top;
+			display: inline-block;
+			margin-left: 10px;
+		}
+
+		#snowpicture img{
+			width: 379px;
+			height: 259px;
+			padding-top: 9px;
+		}
+
+		#about{
+			height: 259px;
+			width: 575px;
+			display: inline-block;
+			background: linear-gradient(to right,  #888888 0%,#a8a8a8 23%,#303030 100%); /* W3C */
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-top: 0px;
+			margin-top: 9px;
+		}
+
+		h2{
+			height: 14px;
+			padding-top: 3px;
+			font-size: 10pt;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			padding-left: 7px;
+			background-color: #FFD40C;
+			vertical-align: top;
+		}
+
+		#about p{
+			font-size: 9pt;
+			padding-left: 30px;
+			padding-right: 30px;
+			color: white;
+		}
+
+		#bulkdelivery{
+			height: 30px;
+			width: 980px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		h6{
+			font-size: 8pt;
+			color: #71642F;
+			display: inline-block;
+			margin-top: 8px;
+			vertical-align: top;
+		}
+
+		h4{
+			margin-top: 15px;
+			padding-left: 30px;
+			font-size: 9pt;
+			font-weight: bold;
+			color: white;
+		}
+
+		#bulkdelivery img{
+			height: 26px;
+			margin-top: 2px;
+			margin-bottom: 2px;
+		}
+
+	#products{
+		width:990px;
+		height: 274px;
+		vertical-align: top;
+	}
+
+			
+
+	.bold{
+		font-weight: bold
+	}
+
+	#automotive, #commercial, #industrial, #diesel{
+		width: 230px;
+		height: 260px;
+		display: inline-block;
+		background-color: white;
+		margin-left: 10px;
+		margin-right: 1px;
+		margin-top: 5px;
+		vertical-align: top;
+		background: linear-gradient(to bottom,  #fcfcfc 0%,#fcfcfc 69%,#fef4d8 100%); /* W3C */
+	}
+
+		h5{
+			height: 14px;
+			padding-top: 3px;
+			font-size: 8pt;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			padding-left: 7px;
+			background-color: #FFD40C;
+			vertical-align: top;
+}
+
+	#products p{
+			font-size: 7pt;
+			padding-left: 30px;
+			padding-right: 30px;
+			color: black;
+	}
+
+	.productbox{
+		width: 230px;
+		height: 105px;
+		vertical-align: top;
+	}
+
+	.readmore img{
+		width: 112px;
+		padding-left: 100px;
+		padding-right: 10px;
+		vertical-align: bottom;
+		margin-top: 20px;
+		padding-bottom: 10px;
+	}

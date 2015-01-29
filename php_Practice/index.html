@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Counter</title>
+	<meta name="description" content="PPC Lubricant">
+	<link rel="stylesheet" type="text/css" href="Counter.css">
+	<style type= "text/css">
+	
+	*{
+		margin:10px auto;
+	}
+
+	p{
+		text-align: center;
+		font-family: helvetica;
+	}
+	form{
+		text-align: center;
+	}
+
+	#wrapper{
+		width: 960px;
+		height: 600px;
+		margin: 10px auto;
+	}
+
+	#display{
+		width:50px;
+		height:50px;
+		margin: 10px auto;
+		border: 1px solid black;
+	}
+
+
+	</style> 
+
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<p>You visited the site</p>
+		<div id="display">
+
+			<?php 
+				session_start();
+					if (!isset($_SESSION['count'])) {
+					  echo 'abc '.$_SESSION['count'] = 0;
+					} else {
+					  echo $_SESSION['count']++;
+					}
+			?>	
+		</div>
+		<p>times</p>
+		<form action="process.php" >
+			
+
+			<input type="submit" value="Reset">
+		</form>
+		
+		
+	</div>
+
+</body>
+</html>

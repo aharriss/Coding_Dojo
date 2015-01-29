@@ -1,0 +1,50 @@
+#heading {
+	margin: 10px;
+	background-color: #d3d3d3;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#sidebar {
+	margin: 10px;
+	background-color: #d3d3d3;
+	color: blue;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 25px;
+}
+
+#essays {
+	margin: 10px;
+	background-color: #BEBEBE;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 28px;
+	width: 628px;
+}
+
+#footer {
+	margin: 10px;
+	background-color: #d3d3d3;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+p {
+	font-size: 14px;
+	display: inline-block;
+}
+
+#sidebar, #essays {
+	display: inline-block;
+	vertical-align: top;
+
+}
+#complete {
+	width: 980px;
+}
+
+.important {
+	color: blue;
+	text-decoration: underline;
+}

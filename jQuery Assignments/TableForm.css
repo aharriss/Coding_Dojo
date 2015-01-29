@@ -1,0 +1,53 @@
+#wrapper{
+	width: 650px;
+	height: 900px;
+	font-family: helvetica;
+
+}
+
+#table{
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px gray solid;
+}
+
+h2{
+	border-bottom: 1px black solid;
+	width: 365px;
+}
+
+form{
+	display: block;
+	text-align: right;
+	font-size: 12px;
+	padding-right: 10px;
+	margin-bottom: 3px;
+}
+
+input{
+	width: 260px;
+	margin-bottom: 3px;
+	margin-top: 15px; 
+}
+
+#AddUser{
+	width: 100px;
+	border-radius: 3px;
+	height: 35px;
+	color: white;
+	font-weight: bold;
+	margin-left: 249px;
+	background-color: #F94800;
+}
+
+#AddUserWrapper{
+	width: 350px;
+	height: 450px;
+	font-family: helvetica;
+}
+
+

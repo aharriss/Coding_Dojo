@@ -1,0 +1,60 @@
+#header{
+	background-color: gray;
+	width: 980px;
+	height: 200px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+	#logo{
+		display: inline-block;
+		background-color: yellow;
+		width: 200px;
+		height: 200px;
+		margin: 0px;
+	}
+
+	#nav{
+		float: right;
+		background-color: red;
+		width: 776px;
+		height: 200px;
+		margin: 0px;
+	}
+
+#nav ul{
+	padding-left: 100px; 
+	vertical-align: top;
+	margin: 0px;
+}
+
+#nav ul li{
+	display: inline-block;
+	padding: 5px 10px;
+	border-right: 1px solid gray;
+	border-top: 1px solid gray;
+	font-size: 12px;
+	margin: 0px;
+}
+
+#body{
+	background-color: green;
+	width: 980px;
+	margin: 0px auto;
+}
+
+		#sidebar{
+			display: inline-block;
+			background-color: blue;
+			width: 300px;
+			height: 450px;
+			margin: 0px auto;
+		}
+
+		#content{
+			display: inline-block;
+			background-color: purple;
+			width: 676px;
+			height: 450px;
+			margin: 0px auto;
+		}

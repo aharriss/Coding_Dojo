@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Michael Changing</title>
+	<meta name="Change" content="1982 Michael Jackson and 2007 Michael Jackson">
+	<link rel="stylesheet" type="text/css" href="MichaelCSS.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> 
+	<!-- This references this page and tells the browser to use all of the code written at this URL and allow me to use it on this page.-->
+	<script type="text/javascript"> 
+
+	$(document).ready(function(){
+
+		$("img").click(function() {
+			var temp= $(this).attr("src")
+			$(this).attr("src", $(this).attr('data-alt-src'))
+			$(this).attr('data-alt-src', temp);
+		});
+	});
+
+
+	</script>
+</head>
+<body>
+			<div id="wrapper">	
+				
+
+
+
+
+
+
+			</div>
+
+</body>
+</html>

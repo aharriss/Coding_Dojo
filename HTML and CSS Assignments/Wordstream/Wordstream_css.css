@@ -1,0 +1,220 @@
+/*Global Styles*/
+p {
+	background-color: white;
+	color: gray;
+	font-size: 10pt;
+	font-family: helvetica;
+	display: inline-block;
+}
+
+h2{
+	font-size: 12pt;
+	font-weight: normal;
+	color: #007ABD;
+	margin-top: 15px;
+	margin-bottom: 2px;
+}
+
+h3{
+	background-color: white;
+	color: #007ABD;
+}
+
+h4{
+	margin: 2px;
+	padding: 1px;
+	width: 600px;
+	display: inline-block;
+}
+
+h5{
+	width: 600;
+	color: gray;
+	font-size: 10pt;
+	font-family: helvetica;
+	display: inline-block;
+}
+
+h6{
+	color: #EC610D;
+	font-size: 10pt;
+	font-weight: bold;
+	margin: 2px;
+}
+
+#wrapper{
+	font-family: helvetica;
+}
+
+
+/*Div Styles*/
+
+a {
+color: #6699FF;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#header{
+	background-color: white;
+	width: 997px;
+	height: 136px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+	#logo{
+		display: inline-block;
+		background-color: yellow;
+		height: 100px;
+		margin: 0px;
+	}
+
+	#ubernav{
+		display: inline-block; 
+		vertical-align: top;
+		width: 390px;
+		height: 40px;
+	}
+
+	#nav{
+		display: inline-block;
+		background-color: #E6E6E6;
+		padding-top: 1px;
+		padding-bottom: 4px;
+		width: 336px;
+		height: 13px;
+		margin: 0px;
+		margin-left: 10px;
+		vertical-align: top;
+		border-radius: 4px;
+		border: 1px solid gray;
+		}
+
+	#nav ul{
+		padding-left: 0px; 
+		vertical-align: top;
+		margin: 0px;
+	}
+
+	#nav ul li{
+		display: inline-block;
+		padding-left: 8px;
+		padding-right: 8px;
+		color: gray;
+		border-right: 1px #B2B2B2 solid;
+		font-size: 10px;
+		margin: 0px;
+		vertical-align: top;
+	}
+
+	/*#nav input, ul{
+		vertical-align: top;
+		display: inline-block;
+	}*/
+
+#login{
+	display: inline-block;
+}
+
+	#login input{
+		background-color: #2989D8;
+		display: inline-block;
+		border: 1px gray solid;
+		vertical-align: top;
+		border-radius: 3px;
+		height: 20px;
+		width: 37px;
+		text-align: center;
+		font-family: helvetica;
+		font-size: 9px;
+		color: white;
+		padding: 1px;
+		margin: 0px;
+		background: linear-gradient(to bottom,  #7db9e8 0%,#7db9e8 0%,#7db9e8 0%,#7db9e8 0%,#7db9e8 2%,#2989d8 40%,#207cca 51%,#1e5799 99%); /* W3C */*/
+	}
+
+	#banner{
+		background-color: #007ABD;
+		width: 994px;
+		height: 50px;
+		margin: 0px;
+		padding-left: 3px;
+		padding-top: 3px;
+		color: white;
+		font-size: 14pt;
+		display: block;
+	}
+
+#body{
+	background-color: white`;
+	width: 997px;
+	margin: 0px auto;
+	display: block;
+}
+
+#belowbannerimage{
+
+}
+		#sidebar{
+			display: inline-block;
+			background-color: white;
+			width: 256px;
+			height: 600px;
+			margin: 0px auto;
+			vertical-align: top;
+		}
+
+		#content{
+			display: inline-block;
+			background-color: white;
+			width: 716px;
+			height: 800px;
+			margin: 0px auto;
+			padding: 10px;
+		}
+
+		#content ul{
+			font-size: 10pt;
+			color: gray;
+		}
+
+		#contentbox{
+			border: 3px #3E9FD3 solid;
+			background-color: white;
+			padding: 2px;
+			width: 600px;
+		}
+		
+		#checkeredflag{
+			display: inline-block;
+			}
+
+		#boxtext{
+			display: inline-block;
+			width: 498px;
+			padding: 1px;
+			margin: 1px;
+			vertical-align: top
+		}
+
+		#getstartedbutton button {
+			background-color: #99FF33;
+			color: white;
+			border: 1px #B2B2B2 solid;
+			border-radius: 8px;
+			padding: 5px;
+			height: 36px;
+			font-size: 14px;
+			font-weight: bold;
+			background: -moz-linear-gradient(top,  #b5f280 0%, #70ad20 50%, #67bf20 51%, #aee079 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5f280), color-stop(50%,#70ad20), color-stop(51%,#67bf20), color-stop(100%,#aee079)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #b5f280 0%,#70ad20 50%,#67bf20 51%,#aee079 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #b5f280 0%,#70ad20 50%,#67bf20 51%,#aee079 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #b5f280 0%,#70ad20 50%,#67bf20 51%,#aee079 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #b5f280 0%,#70ad20 50%,#67bf20 51%,#aee079 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5f280', endColorstr='#aee079',GradientType=0 ); /* IE6-9 */
+		}
+

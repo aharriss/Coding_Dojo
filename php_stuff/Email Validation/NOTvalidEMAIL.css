@@ -1,0 +1,46 @@
+*{
+	margin: 10px auto;
+}
+
+#wrapper{
+	width:400px;
+	height:800px;
+	font-family: helvetica;
+}
+
+h1{
+	color: #333333;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 16pt;
+	margin-bottom: 2px;
+	padding-top: 40px;
+}
+
+#box1{
+	width:306px;
+	height:14px;
+}
+
+#button1{
+	background-color: #C8E4E7;
+	border: 1px #333333 solid;
+	border-radius: 4px;
+}
+
+#notvalid{
+	background-color: #F2555F;
+	color: black;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 12pt;
+	margin-bottom:5px;
+	margin-top:60px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 380px;
+	position: relative;
+	left: 0%;
+}

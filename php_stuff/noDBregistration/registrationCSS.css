@@ -1,0 +1,28 @@
+
+#wrapper{
+	background-color: black;
+	width: 500px;
+	vertical-align: middle;
+	margin: 50px 50px 50px 50px;
+}
+
+.textbox{
+	font-family: helvetica;
+	color: #333333;
+	border: 1px white solid;
+	text-align: left;
+	position: relative;
+	right: 0px
+}
+.input_request{
+	font-family: helvetica;
+	display: inline-block;
+	color: #65FF00;
+}
+
+#requests{
+	display: inline-block;
+	margin: 20px 50px 20px 50px;
+	text-align: left;
+	padding-left: 50px;
+}

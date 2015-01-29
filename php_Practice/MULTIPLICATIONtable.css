@@ -1,0 +1,21 @@
+.A{
+	background-color: #E9E5DC;
+	color: black;
+
+}
+
+.B{
+	color: blue;
+}
+
+th,td{
+	width: 20px;
+	height: 20px;
+	padding: 4px;
+	border: 1px gray solid;
+	text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)file:///Users/adamharriss/Documents/Coding%20Dojo/jQuery%20Assignments/jQuery%20Assignments/QueryExamples.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Example</title>
+	<meta name="description" content="BLAH BLAH BLAH">
+	<link rel="stylesheet" type="text/css" href="./Example_files/QueryCSS.css">
+	<script src="./Example_files/jquery.min.js"></script> 
+	<!-- This references this page and tells the browser to use all of the code written at this URL and allow me to use it on this page.-->
+	<script type="text/javascript"> 
+
+	$(document).ready(function(){
+	
+		// ADD CLASS - Adds the specified class(es) to each of the set of matched elements.
+		$("#button1").click(function(){
+			$("#p1").addClass("red");
+		});
+
+		// SLIDE TOGGLE - Display or hide the matched elements with a sliding motion.
+		$("#button2").click(function(){
+			$("#img-stig").slideToggle();
+		});
+		
+		// APPEND - Insert content, specified by the parameter, to the end of each element in the set of matched elements.
+		$("#button3").click(function(){
+			$("#p2").append("    Some say... he once won in Russion Roulette with a fully loaded revolver");
+		});
+		// <!--I could not get this to append by referencing another paragraph call p3-->
+
+		// HOVER - Bind one or two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.
+		$("#img-stig3").hover(function(){
+			$(this).fadeOut();
+		});
+		// <!--NOT WORKING-->
+
+		// SLIDE UP - Hide the matched elements with a sliding motion.
+		$("#button5").click(function(){
+			$("#img-stig4").slideUp();
+		});
+
+		// FOCUS - Bind an event handler to the “focus” JavaScript event, or trigger that event on an element.
+		$("input").focus(function(){
+			$(this).after("Focusing here").css("display").fadeOut( 1000 );
+		});
+
+		// AFTER - Insert content, specified by the parameter, after each element in the set of matched elements.
+		$("button6").click(function(){
+			$("#p3").after("This content should be shownn AFTER the paragraph above.")
+		});
+
+		//ATTRIBUTE - Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
+		$("button7b").click(function(){
+			$(this).attr("#img-stig3");
+		});
+
+		//BEFORE - Insert content, specified by the parameter, before each element in the set of matched elements.
+		$("button6").click(function(){
+			$("#p3").after("This content should be shownn AFTER the paragraph above.")
+
+		//TEXT - Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.
+
+
+		//VALUE - Get the current value of the first element in the set of matched elements or set the value of every matched element.
+
+
+		//TOGGLE - Bind two or more handlers to the matched elements, to be executed on alternate clicks.
+		$("img").click(function() {
+			var temp= $(this).attr("src")
+			$(this).attr("src", $(this).attr('data-alt-src'))
+			$(this).attr('data-alt-src', temp)
+
+		//HIDE - Hide the matched elements.
+		$("buttonhide").click(function(){
+			$(this).hide("img-stig3")
+		}
+
+		//SHOW - Display the matched elements.
+		$("buttonshow").click(function(){
+			$(this).show("img-stig3")
+		}
+
+		//SLIDE DOWN - Display the matched elements with a sliding motion.
+		$("#button5").click(function(){
+			$("#img-stig4").slideDown();
+
+		//FADE OUT - Hide the matched elements by fading them to transparent.
+
+		//FADE IN - Display the matched elements by fading them to opaque.
+
+		//CLICK - Bind an event handler to the “click” JavaScript event, or trigger that event on an element.
+		$("#button8").click(function(){
+			$("#p1").addClass("blue");
+
+	});
+
+	</script>
+</head>
+	<body>
+		<!-- ADD CLASS -->
+		<h1 class="headers">.addClass</h1>
+		<button id="button1">addClass</button>
+		<p id="p1"> Click the button to add class 'red' to this paragraph </p>
+		<hr>
+
+		<!-- SLIDE TOGGLE -->
+		<h1 class="headers">.slideToggle</h1>
+		<button id="button2">slideToggle</button>
+		<p>Click the button and slidetoggle a hidden image of The Stig.</p>
+				<img id="img-stig" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig">
+		<hr>
+
+		<!-- APPEND -->
+		<h1 class="headers">.append</h1>
+			<button id="button3">append</button>
+			<p id="p2">Click the button and append this paragraph.</p>
+				<img id="img-stig2" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig2">
+		<hr>
+
+		<!-- HOVER -->
+		<h1 class="headers">.hover</h1>
+			<button id="button4">hover</button>
+			<p id="p2">Hover over THE STIG and he will fade out.</p>
+			<img id="img-stig3" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig3">
+		<hr>
+
+		<!-- SLIDE UP -->
+		<h1 class="headers">.slideUp</h1>
+			<button id="button5">slideUP</button>
+			<p id="p2">Click the button and watch The Stig slide up. It worked... Now you'd have to write another jQuery function to make him reappear.</p>
+			<img id="img-stig4" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig4">
+		<hr>
+
+		<!-- VALUE -->
+		<h1 class="headers">.val</h1>
+			<button id="button6">val</button>
+			<p id="p2">Get the current value of the first element in the set of matched elements or set the value of every matched element.</p>	
+		<hr>
+
+		<!-- SUBMIT -->
+		<h1 class="headers">.submit</h1>
+			<button id="button7">submit</button>
+			<p id="p2">Click the button and submit (What does that mean?).</p>
+		<hr>
+
+		<!-- FOCUS -->
+		<h1 class="headers">.focus</h1>
+			<p id="p2">Click on each box to put the focus on it.</p>
+			<input>
+			
+			<input>
+			
+		<hr>
+
+		<!-- HIDE -->
+		<h1 class="headers">.hide</h1>
+			<button id="button9">hide</button>
+			<p id="p2">Click the button and hide this image.</p>
+			<img id="img-stig5" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig5">
+		<hr>
+
+		<!-- //ATTRIBUTE -->
+		<h1 class="headers">.attr</h1>
+		<button id="button7b">attribute</button>
+		<p>Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</p>
+		<img id="img-stig3" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig5">
+
+
+		<!-- //BEFORE  -->
+		<h1 class="headers">.before</h1>
+		<p>Insert content, specified by the parameter, before each element in the set of matched elements.</p>
+
+
+		<!-- //TEXT  -->
+		<h1 class="headers">.text</h1>
+		<p>Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.</p>
+
+		<!-- //TOGGLE  -->
+		<h1 class="headers">.toggle</h1>
+		<p>Click ON THE STIG!!!  Definition: Bind two or more handlers to the matched elements, to be executed on alternate clicks.</p>
+		<img id="img-stig5" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig6">
+		<img id="img-stigB" data-alt-src="black-stig.jpg" alt="img-stig7">
+		<hr>
+
+		<!-- //HIDE  -->
+		<h1 class="headers">.hide</h1>
+		<button id="buttonhide">hide</button>
+		<p>Hide the matched elements.</p>
+		<p id="p2">Click the button and hide this image.</p>
+			<img id="img-stig3" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig5">
+		<hr>
+
+
+		<!-- //SHOW  -->
+		<h1 class="headers">.show</h1>
+			<button id="buttonshow">show</button>
+			<p id="p2">Click the button and show an image.</p>
+			<img id="img-stig3" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig3">
+		<hr>
+
+		<!-- //SLIDE DOWN  -->
+		<h1 class="headers">.slideDown</h1>
+		<p>Display the matched elements with a sliding motion.</p>
+			<img id="img-stig3" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig3">
+		<hr>
+
+
+		<!-- //FADE OUT  -->
+		<h1 class="headers">.fadeOut</h1>
+		<p>Hide the matched elements by fading them to transparent.</p>
+			<img id="img-stig3" src="./Example_files/stig-crossed-arms.jpg" alt="img-stig3">
+		<hr>
+
+		<!-- //FADE IN  -->
+		<h1 class="headers">.fadeIn</h1>
+		<p>Display the matched elements by fading them to opaque.</p>
+		<hr>
+
+		<!-- //CLICK  -->
+		<h1 class="headers">.click</h1>
+		<button id="button8">addClass</button>
+		<p>Something happens when CLICK an item specified in the code. In this case, this text will turn blue when the button is clicked. Bind an event handler to the “click” JavaScript event, or trigger that event on an element.</p>
+		<hr>
+
+
+	
+
+</body></html>
